@@ -47,7 +47,7 @@
   height: 8.75rem;
   background-color: #0e1116;
   position: fixed; 
-  top: 0;
+  top: -8.75rem; /* temp moved away from 0 to scroll navbar to top of screen */
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@
   height: 3.75rem;
   background-color: #0e1116;
   position: fixed;
-  top: 9.375rem;
+  top: 0.625rem; /* temp moved away from 9.375rem to scroll navbar to top of screen */
   left: 3.125rem;
   border-radius: 18.75rem 18.75rem 9.375rem 9.375rem;
   box-shadow: 0.0625rem 0.0625rem 0.0625rem #0e1116, -0.0625rem -0.0625rem 0.0625rem #0e1116;
@@ -102,6 +102,7 @@
   position: absolute;
   top: -9.375rem;
   left: calc(50% - 0.09375rem);
+  box-shadow: 0.0625rem 0.0625rem #0e1116;
 }
 
 
