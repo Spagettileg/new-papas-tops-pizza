@@ -147,8 +147,9 @@
 input {
   text-align: center;
   border-radius: 0.5rem;
+  height: 45px; /* aligns to order button height */ 
+  font-size: 1rem;
 }
-
 
 /*-------------Header--------------*/
 
@@ -263,10 +264,6 @@ header.masthead .post-heading .meta a {
 /*--------------- Modals ---------------*/
 
 /* Modals */
-
-myModalLabel {
-  color: #FFE400;
-}
 
 .modal-header,
 .modal-body,
