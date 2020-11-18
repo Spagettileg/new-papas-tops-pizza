@@ -59,7 +59,6 @@
 .navbar.change {
   top: 0;
   transition: top 0.35s 0.25s;
-  
 }
 
 .navbar-link {
@@ -110,14 +109,13 @@
 }
 
 .menu {
-  width: 2.5rem;
-  height: 3.75rem;
-  background-color: #0e1116;
+  width: 4.55rem;
+  height: 4.5rem;
+  background-image: url(../img/logo-branding.png);
   position: fixed;
   top: 0.625rem; /* temp moved away from 9.375rem to scroll navbar to top of screen */
   left: 3.125rem;
-  border-radius: 18.75rem 18.75rem 9.375rem 9.375rem;
-  box-shadow: 0.0625rem 0.0625rem 0.0625rem #0e1116, -0.0625rem -0.0625rem 0.0625rem #0e1116;
+  border-radius: 50%;
   cursor: pointer;
   /* Control speed of the menu tab for smooth up & down movement. */
   transition: top 0.35s; 
