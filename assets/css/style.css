@@ -36,9 +36,60 @@
 
 /*  #FFFFFF - White text */
 
-/*  #F2F2F2 - Grey text  */
+/*  #BFBFBF - Grey text  */
 
 /*  #FAFAFA - Off-White text */ 
+
+/*-------------Navbar--------------*/
+
+.navbar {
+  width: 100%;
+  height: 8.75rem;
+  background-color: #0e1116;
+  position: fixed; 
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #0e1116 
+}
+
+.navbar-link {
+  color: #BFBFBF;
+  margin: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.35s;
+}
+
+.navbar-link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar-link i {
+  font-size: 4.375rem;
+}
+
+.navbar-link span {
+  font-size: 1.5625rem;
+  font-weight: 900;
+  margin-top: 0.3125rem;
+  letter-spacing: 0.3125rem;
+}
+
+.menu {
+  width: 2.5rem;
+  height: 3.75rem;
+  background-color: #0e1116;
+  position: fixed;
+  top: 9.375rem;
+  left: 3.125rem;
+  border-radius: 18.75rem 18.75rem 9.375rem 9.375rem
+}
 
 
 /*-------------Header--------------*/
@@ -120,3 +171,4 @@ header.masthead .post-heading .meta a {
   color: #FFF;
   /*White*/
 }
+
