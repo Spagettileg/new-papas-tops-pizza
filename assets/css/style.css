@@ -52,7 +52,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #0e1116 
+  box-shadow: 0.125rem 0.125rem 0.125rem #0e1116; 
+  transition: top 0.35s 0.25s;
+}
+
+.navbar.change {
+  top: 0;
+  transition: top 0.35s 0.25s;
+  
 }
 
 .navbar-link {
@@ -62,7 +69,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: color 0.35s;
+  opacity: 0;
+  transition: color 0.35s, opacity 0.25s;
+}
+
+.change .navbar-link {
+  opacity: 1;
+}
+
+.change .navbar-link:nth-child(1) {
+  transition: opacity 0.35s 0.45s, color 0.35s;
+}
+
+.change .navbar-link:nth-child(2) {
+  transition: opacity 0.35s 0.55s, color 0.35s;
+}
+
+.change .navbar-link:nth-child(3) {
+  transition: opacity 0.35s 0.65s, color 0.35s;
+}
+
+.change .navbar-link:nth-child(4) {
+  transition: opacity 0.35s 0.75s, color 0.35s;
 }
 
 .navbar-link:hover {
@@ -98,6 +126,7 @@
 .menu.change {
   /* the menu tab is now able to move & down, based on the user clicking the tab. */
   top: 9.375rem;
+  transition: top 0.35s;
 }
 
 .menu::before {
