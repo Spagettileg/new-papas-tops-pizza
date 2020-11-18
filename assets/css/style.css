@@ -30,7 +30,7 @@
 
 /*  #FF652F - 'satsuma orange' - Orange */
 
-/*  #FFE400 - 'buttercup yellow' - Tellow */
+/*  #FFE400 - 'buttercup yellow' - Yellow */
 
 /*  #14A76C - 'watercress green' - Green */
 
@@ -139,6 +139,16 @@
   box-shadow: 0.0625rem 0.0625rem #0e1116;
 }
 
+.postcode-text {
+  color: #FFF;
+  font-size: 1rem;
+}
+
+input {
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
 
 /*-------------Header--------------*/
 
@@ -217,4 +227,79 @@ header.masthead .post-heading .meta a {
   color: #FFF;
   /*White*/
 }
+
+/*--------------- Buttons---------------*/
+
+.btn-read {
+    /*Button used for signing upto Papa's Tops Pizza*/
+    background-color: #FFFFFF;
+    /*White*/
+    border: 0.1rem solid #0e1116;
+    /*Black*/
+    border-radius: 0.5rem;
+    color: #0e1116;
+    font-weight: 600;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+}
+
+.btn-read:hover {
+    background-color: #0e1116;
+    /*Black*/
+    border: 0.1rem solid #0e1116;
+    border-radius: 0.5rem;
+    color: #FFE400;
+    /*Yellow*/
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
+}
+
+/*--------------- Modals ---------------*/
+
+/* Modals */
+
+myModalLabel {
+  color: #FFE400;
+}
+
+.modal-header,
+.modal-body,
+.whiskey-words,
+.close {
+    color: #FFFFFF;
+}
+
+.close:hover {
+    /*Yellow*/
+    color: #FFE400;
+}
+
+.modal-content {
+    /*Charcoal Grey*/
+    background-color: #343A40;
+}
+
+.form-group {
+    color: #FFFFFF;
+}
+
+/*--------------- Footer ---------------*/
+
+
+
+
+/*------------ Social Media ------------*/
+
+
+
+
+
+/*----------- Media Queries ------------*/
+
 
