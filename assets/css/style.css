@@ -147,7 +147,7 @@
 input {
   text-align: center;
   border-radius: 0.5rem;
-  height: 45px; /* aligns to order button height */ 
+  height: 2.8125rem; /* aligns to order button */ 
   font-size: 1rem;
 }
 
