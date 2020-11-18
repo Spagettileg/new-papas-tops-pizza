@@ -21,6 +21,7 @@
     <header class="masthead" style="background-image: url('assets/img/hero-image.jpg')">
     <!-- End Page Header -->
     <!-- Navbar -->
+    <div id="navbarSupportedContent">
     <nav class="navbar target">
       <a href="#" class="navbar-link">
         <i class="fas fa-home"></i>
@@ -34,15 +35,18 @@
         <i class="fas fa-user-friends"></i>
         <span>Members</span>
       </a>
-      <a href="#" class="navbar-link">
+      <a href="#" class="navbar-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fas fa-phone-alt"></i>
         <span>Contact Us</span>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Call Now</a>
+        </div>
       </a>
     </nav>
-    
+    </div>
     <!-- End Navbar -->
-    <!-- Page Header (continued) -->
     
+    <!-- Page Header (continued) -->
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -50,7 +54,10 @@
           <div class="site-heading">
             <h1>Papa's Tops Pizza</h1>
             <span class="subheading pb-5">Aspire for greatness. We're ready, are you?</span>
-            <input type="text" placeholder="Enter Postcode">
+                <input type="text" placeholder="Enter Postcode">
+                <div class="pt-2">
+                <button type="submit" class="btn btn-read">Order</button>
+                </div>
             <div class="pt-2">
               <span class="postcode-text">Enter your postcode to order</span>
             </div>
@@ -60,7 +67,6 @@
     </div>
     <div class="menu target"></div>
     </header>
-    
     <!-- End Page Header -->
     
     <!-- Footer -->
