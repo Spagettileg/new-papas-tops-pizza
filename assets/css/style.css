@@ -88,7 +88,20 @@
   position: fixed;
   top: 9.375rem;
   left: 3.125rem;
-  border-radius: 18.75rem 18.75rem 9.375rem 9.375rem
+  border-radius: 18.75rem 18.75rem 9.375rem 9.375rem;
+  box-shadow: 0.0625rem 0.0625rem 0.0625rem #0e1116, -0.0625rem -0.0625rem 0.0625rem #0e1116;
+  cursor: pointer;
+}
+
+.menu::before {
+  content: "";
+  width: 0.1875rem;
+  height: 9.375rem;
+  background-color: #0e1116;
+  /* places an element relative to its parent's position and changing the layout around it */
+  position: absolute;
+  top: -9.375rem;
+  left: calc(50% - 0.09375rem);
 }
 
 
