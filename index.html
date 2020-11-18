@@ -21,7 +21,6 @@
     <header class="masthead" style="background-image: url('assets/img/hero-image.jpg')">
     <!-- End Page Header -->
     <!-- Navbar -->
-    <div id="navbarSupportedContent">
     <nav class="navbar target">
       <a href="#" class="navbar-link">
         <i class="fas fa-home"></i>
@@ -35,15 +34,12 @@
         <i class="fas fa-user-friends"></i>
         <span>Members</span>
       </a>
-      <a href="#" class="navbar-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a href="#" class="navbar-link" data-toggle='modal' data-target='#ContactModal'>
         <i class="fas fa-phone-alt"></i>
         <span>Contact Us</span>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Call Now</a>
-        </div>
       </a>
     </nav>
-    </div>
+    
     <!-- End Navbar -->
     
     <!-- Page Header (continued) -->
@@ -120,6 +116,72 @@
         </div>
     </div>
     <!-- End Member Model -->
+    
+    <!-- Contact Modal to get in touch with Papa's Tops Pizza Company -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">How to contact us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Company Information</h3>
+                    <hr>
+                    <h5>Our Address:</h5>
+                    <p>245 Balham High Road,<br>Wandsworth,<br>London<br>SW17 7BE</p>
+                    <hr>
+                    <h5>Our Contact Information</h5>
+                      <i class="fas fa-phone-alt"> 020 8682 3900</i><br>
+                      <i class="fas fa-envelope-open-text"> info@papastopspizza.co.uk</i><br>
+                    <hr>
+                    <div class="pt-2 text-center ">
+                      <button type="submit" class="btn btn-read">Call Now</button>
+                      <button type="submit" class="btn btn-read">Email Now</button>
+                    </div>
+                    <hr>
+                    <h3 class="hours">Opening Hours</h3>
+                    <hr>
+                    <div class="row">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>Monday</td>
+                            <td>12:00pm - 12:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Tuesday</td>
+                            <td>12:00pm - 12:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Wednesday</td>
+                            <td>12:00pm - 12:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Thursday</td>
+                            <td>12:00pm - 12:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Friday</td>
+                            <td>12:00pm - 1:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Saturday</td>
+                            <td>12:00pm - 1:00am</td>
+                          </tr>
+                          <tr>
+                            <td>Sunday</td>
+                            <td>12:00pm - 1:00am</td>
+                          </tr>
+                        </thead>
+                      </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- End Contact Model -->
     
   <!-- JS Library for Bootstrap. popper.js not required -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
