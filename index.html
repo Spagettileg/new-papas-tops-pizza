@@ -30,7 +30,7 @@
         <i class="fas fa-pizza-slice"></i>
         <span>Menu & Ordering</span>
       </a>
-      <a href="#" class="navbar-link">
+      <a href="#" class="navbar-link" data-toggle='modal' data-target='#MemberModal'>
         <i class="fas fa-user-friends"></i>
         <span>Members</span>
       </a>
@@ -49,16 +49,71 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Papa's Tops Pizza</h1>
-            <span class="subheading">Aspire for greatness. We're ready, are you?</span>
+            <span class="subheading pb-5">Aspire for greatness. We're ready, are you?</span>
+            <input type="text" placeholder="Enter Postcode">
+            <div class="pt-2">
+              <span class="postcode-text">Enter your postcode to order</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  <div class="menu target"></div>
-  </header>
+    <div class="menu target"></div>
+    </header>
     
     <!-- End Page Header -->
     
+    <!-- Footer -->
+    
+    <!-- End Footer --> 
+    
+    <!-- Member Modal to join Papa's Tops Pizza Club -->
+    <div class="modal fade" id="MemberModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sign up to Papa's Top Pizza!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">First Name</label>
+                            <input type="name" class="form-control" id="RegisterName" required=true placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Surname</label>
+                            <input type="name" class="form-control" id="RegisterSurname"  required=true placeholder="Surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="RegisterEmail" required=true placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Contact Number</label>
+                            <input type="telephone" class="form-control" id="RegisterTelephone"  required=true placeholder="Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="Address">Delivery address</label>
+                            <input type="name" class="form-control" id="RegisterDelivery" required=true placeholder="Delivery Address">
+                            <p class="help-block">It's your responsibility to keep this address up to date</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="RegisterPassword" required=true placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="RegisterPasswordRepeat" required=true placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Member Model -->
     
   <!-- JS Library for Bootstrap. popper.js not required -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
