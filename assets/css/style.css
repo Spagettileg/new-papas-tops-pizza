@@ -287,6 +287,17 @@ header.masthead .post-heading .meta a {
     color: #FFFFFF;
 }
 
+.modal-body i .fas fa-envelope,
+.modal-body i .fas fa-envelope-open-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+td,
+.hours {
+  color: #FF652F;
+}
+
 /*--------------- Footer ---------------*/
 
 
