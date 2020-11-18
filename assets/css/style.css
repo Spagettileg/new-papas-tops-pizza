@@ -16,6 +16,31 @@
 /*    font-size: 62.5%; */
 /* } */
 
+.row {
+  /*helps remove unecessary white space on right vertical*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Colours used in Papa's Tops Pizza website design */
+
+/*  #0e1116 - 'rich black' - Black  */
+
+/*  #747474 - 'cloud grey' - Grey */
+
+/*  #FF652F - 'satsuma orange' - Orange */
+
+/*  #FFE400 - 'buttercup yellow' - Tellow */
+
+/*  #14A76C - 'watercress green' - Green */
+
+/*  #FFFFFF - White text */
+
+/*  #F2F2F2 - Grey text  */
+
+/*  #FAFAFA - Off-White text */ 
+
+
 /*-------------Header--------------*/
 
 header.masthead {
