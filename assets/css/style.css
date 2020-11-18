@@ -103,9 +103,9 @@
 
 .navbar-link span {
   font-size: 1.5625rem;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 0.3125rem;
-  letter-spacing: 0.3125rem;
+  letter-spacing: 0.2125rem;
 }
 
 .menu {
@@ -188,7 +188,6 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 0.625rem 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .post-heading h1 {
@@ -205,7 +204,6 @@ header.masthead .post-heading .subheading {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0.625rem 0 1.875rem;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .post-heading .meta {
