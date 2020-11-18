@@ -146,6 +146,7 @@
 
 input {
   text-align: center;
+  border: 2px solid #0e1116;
   border-radius: 0.5rem;
   height: 2.8125rem; /* aligns to order button */ 
   font-size: 1rem;
