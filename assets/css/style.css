@@ -91,6 +91,13 @@
   border-radius: 18.75rem 18.75rem 9.375rem 9.375rem;
   box-shadow: 0.0625rem 0.0625rem 0.0625rem #0e1116, -0.0625rem -0.0625rem 0.0625rem #0e1116;
   cursor: pointer;
+  /* Control speed of the menu tab for smooth up & down movement. */
+  transition: top 0.35s; 
+}
+
+.menu.change {
+  /* the menu tab is now able to move & down, based on the user clicking the tab. */
+  top: 9.375rem;
 }
 
 .menu::before {
