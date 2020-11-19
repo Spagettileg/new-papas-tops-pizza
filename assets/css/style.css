@@ -298,6 +298,66 @@ td,
   color: #FF652F;
 }
 
+/*--------------- Meal Deals ---------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 62.5rem;
+  padding-top: 6rem;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.125rem;
+  word-break: break-all;
+}
+
+.column {
+    /* Create three equal columns that floats next to each other */
+  float: left;
+  width: 100%;
+  display: none; /* Hide all elements by default */
+}
+
+.content {
+  background-color: white;
+  padding: 0.625rem;
+}
+
+.picture img {
+  border-radius: 50%;
+}
+
+.show {
+    /* The "show" class is added to the filtered elements */
+  display: block;
+}
+
+.btn-view {
+    /* Style the buttons */
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  background-color: #fbd8d0;
+  /* 30% lighter then #F05F40 */ 
+  border-radius: 0.5rem;
+}
+
+.btn-view.active {
+  background-color: #F05F40;
+  border: 2px solid #F05F40;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+}
+
 /*--------------- Footer ---------------*/
 
 
