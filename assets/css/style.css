@@ -329,6 +329,29 @@ td,
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*-------------- Carousel---------------*/
+
+#carousel-background {
+  /*  #747474 - 'cloud grey' - Grey */
+  /*  #FFE400 - 'buttercup yellow' - Yellow */
+  /*  #FF652F - 'satsuma orange' - Orange */
+  background-image: linear-gradient(to bottom right, #747474, #FFE400, #ff652F);
+}
+
+.pizza {
+  padding-top: 3rem;
+}
+
+.pizza-header {
+  color: #747474;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
 /*--------------- Footer ---------------*/
 
 
