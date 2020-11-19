@@ -341,6 +341,7 @@ td,
 }
 
 @keyframes deals {
+  /* Meal deals header animated to move in and out infinitely */
   from {transform: scale(0.95);}
   to {transform: scale(1.05);}
   to {transform: scale(1.10);}
