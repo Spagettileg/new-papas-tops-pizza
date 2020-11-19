@@ -22,6 +22,11 @@
   margin-right: 0;
 }
 
+ul {
+  /* removes bullet points from unordered list */
+  list-style-type: none;
+}
+
 /* Colours used in Papa's Tops Pizza website design */
 
 /*  #0e1116 - 'rich black' - Black  */
@@ -374,7 +379,24 @@ td,
 
 /*--------------- Footer ---------------*/
 
+#footer {
+  background-color: #FF652F;
+  /*Black*/
+  border-color: #FF652F;
+  /*Black*/
+}
 
+.footer-text li a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0e1116;
+  /*Off-White*/
+}
+
+#footer .text-uppercase {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
 
 /*------------ Social Media ------------*/
