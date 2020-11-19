@@ -275,7 +275,6 @@ header.masthead .post-heading .meta a {
 
 .modal-header,
 .modal-body,
-.whiskey-words,
 .close {
     color: #FFFFFF;
 }
@@ -313,7 +312,7 @@ td,
 
 .main {
   max-width: 62.5rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
   margin: auto;
 }
 
