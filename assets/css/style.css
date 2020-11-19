@@ -377,12 +377,23 @@ td,
    transform: translate(-50%, -50%);
 }
 
+/*------------ Block Divider -----------*/
+
+.block-divider-short {
+  text-align: center;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #0e1116;
+  /*Black*/
+}
+
 /*--------------- Footer ---------------*/
 
 #footer {
-  background-color: #FF652F;
+  background-color: #FFE400;
   /*Black*/
-  border-color: #FF652F;
+  border-color: #FFE400;
   /*Black*/
 }
 
@@ -398,10 +409,14 @@ td,
   font-weight: 600;
 }
 
-
 /*------------ Social Media ------------*/
 
-
+.fa-facebook-square,
+.fa-twitter-square {
+  font-size: 2.5rem;
+  color: #0e1116;
+  /*Black*/
+}
 
 
 
