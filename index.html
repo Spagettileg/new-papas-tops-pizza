@@ -98,9 +98,47 @@
     
     <!-- Pizza Carousel-->
     <section id="carousel-background">
-    <div class="container pizza">
-        <h1 class="pizza-header">Delicious Pizza | Wood Oven Cooked</h1>
-    </div>
+      <div class="container pizza">
+          <h1 class="pizza-header">Delicious Pizza | Wood Oven Cooked</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item text-center active">
+                  <img src="assets/img/2-large-pizzas.png" alt="cauliflour crust" width="300" height="300">
+                  <img src="assets/img/free-soft-drinks.jpg" alt="cajun prawn" width="300" height="300">
+                  <img src="assets/img/garlic-breads.png" alt="veg" width="300" height="300">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="assets/img/free-soft-drinks.jpg" alt="cajun prawn" width="300" height="300">
+                  <img src="assets/img/garlic-breads.png" alt="veg" width="300" height="300">
+                  <img src="assets/img/2-large-pizzas.png" alt="cauliflour crust" width="300" height="300">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="assets/img/garlic-breads.png" alt="veg" width="300" height="300">
+                  <img src="assets/img/2-large-pizzas.png" alt="cauliflour crust" width="300" height="300">
+                  <img src="assets/img/free-soft-drinks.jpg" alt="cajun prawn" width="300" height="300">
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+              
+              <!-- Indicators -->
+              <div class="container pt-5">
+              <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ul>
+              </div>
+          </div>
+      </div>
     </section>
     
     <!-- End Pizza Carousel -->
