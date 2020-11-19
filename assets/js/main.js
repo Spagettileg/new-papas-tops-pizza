@@ -21,3 +21,11 @@ $(".item").click(function(){
 $(".carousel-control-prev").click(function(){
   $("#myCarousel").carousel("prev");
 });
+
+// Company trading years appear in the footer
+
+$(document).ready(function () {
+     
+    $('#trading-year').text(new Date().getFullYear());
+    
+});
