@@ -550,7 +550,7 @@ td,
     top: -20rem;
   }
   .navbar-link {
-    margin: 1rem;
+    margin: 0 1.5rem;
   }
   .navbar-link i {
     font-size: 1.5rem;
