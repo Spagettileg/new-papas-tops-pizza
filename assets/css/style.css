@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
 /* Generic Styles */
-/* * { */
-/*    margin: 0; */
-/*    padding: 0; */
-/*    box-sizing: border-box; */
-/*    text-decoration: none; */
-/*    outline: none; */
-/*    font-family: 'Nunito', sans-serif; */
-/*    font-weight: 400; */
-/* } */
-
-/* html { */
-    /* 1rem = 10px. Based upon 16px * 62.5% = 10px */
-/*    font-size: 62.5%; */
-/* } */
 
 .row {
   /*helps remove unecessary white space on right vertical*/
@@ -45,7 +31,7 @@ ul {
 
 /*  #BFBFBF - Grey text  */
 
-/*  #FAFAFA - Off-White text */ 
+/*  #FAFAFA - Off-White text */
 
 /*-------------Navbar--------------*/
 
@@ -53,13 +39,14 @@ ul {
   width: 100%;
   height: 8.75rem;
   background-color: #0e1116;
-  position: fixed; 
-  top: -8.75rem; /* temp moved away from 0 to scroll navbar to top of screen */
+  position: fixed;
+  top: -8.75rem;
+  /* temp moved away from 0 to scroll navbar to top of screen */
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #0e1116; 
+  box-shadow: 0.125rem 0.125rem 0.125rem #0e1116;
   transition: top 0.35s 0.25s;
 }
 
@@ -116,16 +103,18 @@ ul {
 }
 
 .menu {
-  width: 4.55rem;
+  width: 4.5rem;
   height: 4.5rem;
   background-image: url(../img/logo-branding.png);
   position: fixed;
-  top: 0.625rem; /* temp moved away from 9.375rem to scroll navbar to top of screen */
+  top: 0.625rem;
+  /* temp moved away from 9.375rem to scroll navbar to top of screen */
   left: 3.125rem;
   border-radius: 50%;
   cursor: pointer;
+
   /* Control speed of the menu tab for smooth up & down movement. */
-  transition: top 0.35s; 
+  transition: top 0.35s;
 }
 
 .menu.change {
@@ -155,7 +144,8 @@ input {
   text-align: center;
   border: 2px solid #0e1116;
   border-radius: 0.5rem;
-  height: 2.8125rem; /* aligns to order button */ 
+  height: 2.8125rem;
+  /* aligns to order button */
   font-size: 1rem;
 }
 
@@ -240,33 +230,33 @@ header.masthead .post-heading .meta a {
 /*--------------- Buttons---------------*/
 
 .btn-read {
-    /*Button used for signing upto Papa's Tops Pizza*/
-    background-color: #FFFFFF;
-    /*White*/
-    border: 0.1rem solid #0e1116;
-    /*Black*/
-    border-radius: 0.5rem;
-    color: #0e1116;
-    font-weight: 600;
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
+  /*Button used for signing upto Papa's Tops Pizza*/
+  background-color: #FFFFFF;
+  /*White*/
+  border: 0.1rem solid #0e1116;
+  /*Black*/
+  border-radius: 0.5rem;
+  color: #0e1116;
+  font-weight: 600;
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
 }
 
 .btn-read:hover {
-    background-color: #0e1116;
-    /*Black*/
-    border: 0.1rem solid #0e1116;
-    border-radius: 0.5rem;
-    color: #FFE400;
-    /*Yellow*/
-    font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    /*Windows*/
-    -webkit-transition: all 0.35s ease-in-out;
-    /*Apple*/
+  background-color: #0e1116;
+  /*Black*/
+  border: 0.1rem solid #0e1116;
+  border-radius: 0.5rem;
+  color: #FFE400;
+  /*Yellow*/
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  /*Windows*/
+  -webkit-transition: all 0.35s ease-in-out;
+  /*Apple*/
 }
 
 /*--------------- Modals ---------------*/
@@ -276,21 +266,21 @@ header.masthead .post-heading .meta a {
 .modal-header,
 .modal-body,
 .close {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .close:hover {
-    /*Yellow*/
-    color: #FFE400;
+  /*Yellow*/
+  color: #FFE400;
 }
 
 .modal-content {
-    /*Charcoal Grey*/
-    background-color: #343A40;
+  /*Charcoal Grey*/
+  background-color: #343A40;
 }
 
 .form-group {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .modal-body i .fas fa-envelope,
@@ -317,11 +307,11 @@ td,
 }
 
 .column {
-    /* Create three equal columns that floats next to each other */
+  /* Create three equal columns that floats next to each other */
   float: left;
   width: 100%;
-    /* Hide all elements by default */
-  display: none; 
+  /* Hide all elements by default */
+  display: none;
 }
 
 .content {
@@ -342,13 +332,27 @@ td,
 
 @keyframes deals {
   /* Meal deals header animated to move in and out infinitely */
-  from {transform: scale(0.95);}
-  to {transform: scale(1.05);}
-  to {transform: scale(1.10);}
-  to {transform: scale(1.15);}
-  to {transform: scale(1.10);}
-  to {transform: scale(1.05);}
-  to {transform: scale(1);}
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1.10);
+  }
+  to {
+    transform: scale(1.15);
+  }
+  to {
+    transform: scale(1.10);
+  }
+  to {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /*-------------- Carousel---------------*/
@@ -372,26 +376,26 @@ td,
 }
 
 .carousel-inner img {
-    /* Makes the carousel image fully responsive */
-    border-radius: 50%;
-    max-height: 15.625rem;
-    max-width: 15.625rem;
-    padding: 1.1rem;
-  }
+  /* Makes the carousel image fully responsive */
+  border-radius: 50%;
+  max-height: 15.625rem;
+  max-width: 15.625rem;
+  padding: 1.1rem;
+}
 
 .carousel-item p {
   /* Provides a semi-transparent background to names of pizza on carousel. */
-   color: #0e1116;
-   font-weight: 500;
-   background-color: #FFE400;
-   opacity: 0.85;
-   padding: 5px 10px 5px 10px;
-   border-radius: 6px;
-   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  color: #0e1116;
+  font-weight: 500;
+  background-color: #FFE400;
+  opacity: 0.85;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*------------ Block Divider -----------*/
@@ -427,10 +431,10 @@ td,
 }
 
 #footer .payment {
-    font-size: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*-------- Social Media & Finance -------*/
@@ -447,11 +451,114 @@ td,
 }
 
 #footer li a i:hover {
-    /* All footer icons will increase by 15% when hovered by user */ 
-    transform: scale(1.15);
-    opacity: 0.9;
+  /* All footer icons will increase by 15% when hovered by user */
+  transform: scale(1.15);
+  opacity: 0.9;
 }
 
 /*----------- Media Queries ------------*/
 
+@media(max-width: 1024px) {
+  /* viewpoint: Tablet Landscape */
+  .navbar-link {
+    margin: 1.25rem;
+  }
+  .navbar-link i {
+    font-size: 3rem;
+  }
+  .navbar-link span {
+    font-size: 1.5rem;
+  }
+  .deal-gallery {
+    margin: 1.25rem;
+  }
+  .menu {
+    left: 1.25rem;
+  }
+}
 
+@media(max-width: 768px) {
+  /* viewpoint: Tablet Portrait */
+  .navbar-link {
+    margin: 0 0.75rem;
+  }
+  .navbar-link i {
+    font-size: 2.5rem;
+  }
+  .navbar-link span {
+    font-size: 1.3rem;
+  }
+  .carousel-inner img {
+    max-height: 10rem;
+    max-width: 10rem;
+    padding: 1.1rem;
+  }
+  .carousel-item p {
+    width: 18rem;
+  }
+}
+
+@media(max-width: 700px) {
+  /* viewpoint: Desktop Portrait */
+  .carousel-inner img {
+    max-height: 8rem;
+    max-width: 8rem;
+    padding: 1.1rem;
+  }
+  .carousel-item p {
+    width: 18rem;
+  }
+}
+
+@media(max-width: 667px) {
+  /* viewpoint: Mobile Landscape */
+  .navbar-link {
+    margin: 0 0.75rem;
+  }
+  .navbar-link i {
+    font-size: 2rem;
+  }
+  .navbar-link span {
+    font-size: 1.1rem;
+  }
+  .carousel-inner img {
+    max-height: 8rem;
+    max-width: 8rem;
+    padding: 1.1rem;
+  }
+  .carousel-item p {
+    width: 18rem;
+  }
+}
+
+@media(max-width: 375px) {
+  /* viewpoint: Mobile Portrait */
+  .navbar {
+    height: 18rem;
+    top: -18rem;
+  }
+  .menu {
+    top: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .menu.change {
+    top: 20rem;
+  }
+  .menu::before {
+    height: 20rem;
+    top: -20rem;
+  }
+  .navbar-link {
+    margin: 1rem;
+  }
+  .navbar-link i {
+    font-size: 1.5rem;
+  }
+  .navbar-link span {
+    font-size: 1.25rem;
+  }
+  .deal-gallery {
+    margin: 0;
+  }
+}
