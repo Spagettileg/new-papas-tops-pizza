@@ -355,6 +355,33 @@ td,
   }
 }
 
+.alert {
+  /* 10% Online Discount */
+  padding: 20px;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  background-color: #f44336;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.closebtn {
+  /* Close discount message */
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
 /*-------------- Carousel---------------*/
 
 #carousel-background {
@@ -560,5 +587,8 @@ td,
   }
   .deal-gallery {
     margin: 0;
+  }
+  .alert {
+    font-size: 1rem;
   }
 }
