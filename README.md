@@ -66,8 +66,11 @@ The user experience centres upon signing up to an incentive based web design and
 - Quick access to meal deals with clear information of cost savings
 
 #### Business
-
-
+- Promotion of latest pizza products to generate customer demand 
+- Market new meal deal offerings to help leverage customer interest 
+- Access required to customer details for efficient payment & delivery of pizza products
+- Offering free products as part of the meal deal to build customer trust, goodwill and the impression that value for money is being created  
+- Social media link access to further promote Papa's Tops Pizza and encourage member intra-communications
 
 #### Next Stage Generation
 
