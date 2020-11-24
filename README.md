@@ -85,7 +85,15 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 
 
 ### User Stories
-
+* New website to incorporate nice imagery
+* Avoid a 'boxy layout' design 
+* Promote some meal deals and mention an online ordering discount   
+* Include links to the company's Facebook & Twitter pages
+* A slide show featuring pizza products with good & clear imagery 
+* Clear view of where a postcode can be added to initiate the ordering process
+* Navbar design to include links to other webpages such as 'Menu & Ordering', 'Members' and 'Contact Us'
+* Company phone number must feature, althoug this should be discreet
+* Must include the web agency corporate logo in the footer design
 
 ### CSS Framework
 
