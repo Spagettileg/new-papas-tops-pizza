@@ -20,9 +20,7 @@ Whilst pizza will remain as the core product for sale, it's clear in todays high
 
 The user experience centres upon signing up to an incentive based web design and the user is able to click on link buttons to access more feature information, special membership and rapid ordering through auto-mated dialling or email ordering. 
 
-
 ***
-
 
 ## Table of Contents
 
@@ -61,8 +59,15 @@ The user experience centres upon signing up to an incentive based web design and
 ### User & Business Objectives
 
 #### User
+- The user belongs to a community of pizza enthusiasts
+- Great product offerings and guidance upon a broad range of pizza products made available- 
+- Access to well known and lesser known pizza products to help expand the users range and appetite
+- Ease of ordering, preferably via website or telephone 
+- Quick access to meal deals with clear information of cost savings
 
 #### Business
+
+
 
 #### Next Stage Generation
 
