@@ -1,14 +1,115 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# New Papa's Tops Pizza
 
 
-Hi there! Welcome to AWS Cloud9!
+## Table of Contents
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+1. [UXD Considerations](#uxd-considerations)
+    * [User & Business Objectives](#user-&-business-objectives) 
+    * [Wireframes](#wireframes)
+    * [User Stories](#user-stories)
+    * [CSS Framework](#css-framework)
+    * [Colour Palette](#colour-palette)
+    * [Typography](#typography)
+    * [Icon Graphics](#icon-graphics)
+    * [Navbar Design](#navbar-design)
 
-Happy coding!
+2. [Technologies Applied](#technologies-applied)
+    * [Languages](#languages)
+    * [Libraries](#libraries)
+    * [Tools](#tools)
+
+3. [Features](#features)
+    * [Features Left To Implement](#features-left-to-implement) 
+
+4. [Tests](#tests)
+    * [Compatibility](#compatibility)
+    * [Test Observations](#test-observations)
+
+5. [Deployment](#deployment)
+    * [How to run this project locally](#how-to-run-this-project-locally) 
+
+6. [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+
+## UXD Considerations
+
+### User & Business Objectives
+
+#### User
+
+#### Business
+
+#### Next Stage Generation
+
+
+### Wireframes
+
+
+### User Stories
+
+
+### CSS Framework
+
+
+### Colour Palette
+
+
+### Typography
+
+
+### Icon Graphics
+
+
+### Navbar Design
+
+
+## Technologies Applied
+
+### Languages
+
+
+### Libraries
+
+### Tools
+
+
+## Features
+
+### index.html
+
+
+### about.html
+
+
+### gallery.html
+
+
+### Features left to implement
+
+## Tests
+
+
+### Compatibility
+
+
+### Test Observations
+
+
+## Deployment
+
+
+### How to run this project locally
+
+
+## Credits
+
+### Content
+
+
+### Media
+
+
+### Acknowledgements
+
