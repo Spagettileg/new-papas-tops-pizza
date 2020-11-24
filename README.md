@@ -134,7 +134,12 @@ index.html             | Footer - Finance          | `far fa-credit-card`
 index.html             | Footer - Finance          | `fab fa-cc-jcb`
 
 ### Navbar Design
+For all device viewpoints, the navbar offers 4 functions on show. The navbar has been designed to both collapse and open on all devices / viewpoints via a Javascript toggle control  
 
+- Home
+- Menu & Ordering
+- Members - Includes a modal window to allow user to register as a member
+- Contact Us - Includes a modal window to provide the user with contact information 
 
 ## Technologies Applied
 
