@@ -79,6 +79,9 @@ The user experience centres upon signing up to an incentive based web design and
 - Explore new social media channels to promote 'Papa's Tops Pizza'
 
 ### Wireframes
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'New Papa's Tops Pizza' website responsiveness on mobile, tablet and desktop devices.
+
+•	[Papa's Tops Pizza](https://github.com/Spagettileg/new-papas-tops-pizza/blob/main/wireframes/papas-tops-pizza_final.zip)
 
 
 ### User Stories
