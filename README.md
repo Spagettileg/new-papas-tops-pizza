@@ -144,11 +144,34 @@ For all device viewpoints, the navbar offers 4 functions on show. The navbar has
 ## Technologies Applied
 
 ### Languages
+•	[HTML](https://html.spec.whatwg.org/multipage/) used as the markup language
 
+•	[CSS](https://www.w3.org/Style/CSS/) used to style the HTML
+
+•   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) used mostly for DOM manipulation
 
 ### Libraries
+•	[Bootstrap](https://www.bootstrapcdn.com/) used to enable styling of front page and support aesthetic design
+
+•	[jQuery](https://jquery.com/) used The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers to ensure that resources hosted on third-party servers have not been tampered with 
+
+•	[Font Awesome](https://fontawesome.com/) to provide the font icons for Papa's Tops Pizza website
 
 ### Tools
+•	[AWS Cloud9](https://aws.amazon.com/cloud9/) a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser
+
+•	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design
+
+•	[Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+
+•	[Jigsaw - CSS validation](https://jigsaw.w3.org/css-validator/) this validator checks the markup validity of CSS style sheet and ensure coding convention is upheld
+
+•	[JS Hint](https://jshint.com/) a tool that helps to detect errors and potential problems in the javascript code
+
+•	[W3C - HTML validation](https://validator.w3.org/) this validator checks the markup validity of HTML web documents
+
+### Hosting
+•	[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere
 
 
 ## Features
