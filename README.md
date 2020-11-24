@@ -92,7 +92,7 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 * A slide show featuring pizza products with good & clear imagery 
 * Clear view of where a postcode can be added to initiate the ordering process
 * Navbar design to include links to other webpages such as 'Menu & Ordering', 'Members' and 'Contact Us'
-* Company phone number must feature, althoug this should be discreet
+* Company phone number must feature, although this should be discreet
 * Must include the web agency corporate logo in the footer design
 
 ### CSS Framework
@@ -117,7 +117,21 @@ Off-White          | `#FAFAFA`
 [Nunito](https://fonts.google.com/) and [sans-serif](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon Graphics
+Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primarily to support the features section, as viewed in `index.html` page 
 
+Page                   | Function                  | Font  
+-----------------------|---------------------------|-------
+index.html             | Home link                 | `fas fa-home`
+index.html             | Menu & Ordering           | `fas fa-pizza-slice` 
+index.html             | Members                   | `fas fa-user-friends`
+index.html             | Contact Us                | `fas fa-phone-alt`
+index.html             | Footer - Social Media     | `fab fa-facebook-square`    
+index.html             | Footer - Social Media     | `fab fa-twitter-square`
+index.html             | Footer - Finance          | `fab fa-cc-visa`
+index.html             | Footer - Finance          | `fab fa-cc-mastercard`
+index.html             | Footer - Finance          | `fas fa-credit-card`
+index.html             | Footer - Finance          | `far fa-credit-card`
+index.html             | Footer - Finance          | `fab fa-cc-jcb`
 
 ### Navbar Design
 
