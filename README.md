@@ -282,10 +282,13 @@ Further reading and troubleshooting on cloning a repository from [GitHub](https:
 ## Credits
 
 ### Content
-
+- Navbar toggle idea taken from [Udemy - Responsive Websites](https://www.udemy.com/) with code being adapted by myself 
 
 ### Media
-
+- [Favicon image](http://www.papastopspizza.co.uk/) taken from company website. The image was then re-cropped using paint 3d tool  
+- [Pizza Food Images](https://www.bbcgoodfood.com/) used in meal deals container and pizza carousel
+- [Hero image](https://walkinsiderome.com/) used in the frontpage introduction
+- [Trilogic logo](https://www.trilogicrecruitment.co.uk/) used in footer of homepage
 
 ### Acknowledgements
 
