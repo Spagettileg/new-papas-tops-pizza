@@ -177,12 +177,17 @@ For all device viewpoints, the navbar offers 4 functions on show. The navbar has
 ## Features
 
 ### index.html
+**Navbar** has been designed to include an icon image that can be toggled to both reveal and close the navbar. The 'home' icon allows the user to return to the homepage / top of the screen. In addition, the 'menu & ordering' icon is a placeholder for the next phase of developemnt to connect the user to the full pizza menu, with capability to order. 'Member' icon provide a portal to a modal window to enable user to complete a standard form for company membership & benefits. 'Contact Us' icon is another portal to a modal window that enables the user view the companies location, address, telephone number, email address and opening hours. Furthermore, the user is able to call & email the company direct from this app modal window  
 
+A hero image of a pizza chef greets the user with an invitation to enter their postcode & click the **order** button to initiate the ordering process      
 
-### about.html
+Online discount notification **10% of the bill** appears in thenext container. This message can be closed by clicking an 'x' icon 
 
+**Meal Deals** helps the company advertise their discounts on certain meal combinations. Circular images are animated for improved UI 
 
-### gallery.html
+**Carousel** of current pizza product offerings are on view. Three circular pizza images appear per carousel cycle with a progress indicator to show the user where they are in the animation cycle    
+
+**Footer** is vbuilt into three specific segments. **Pizza Topping** links different food genre toppings including meat, chicken, vegetable, plain - no fuss and customise. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Papa's Tops Pizza' social media sites for Facebook & Twitter. Again, the .hover pseudo class has been used to provide a transition scale increase of 15%. **Site Links** links allow the user to access menu & ordering, members & contact us. Web agency logo is on view. The lower footer presents a series of accepted credit cards that can be used to pay for an order. Finally, Papa's Tops Pizza' current year of trading, powered by Javascript, copyright and web designer information are also on view.    
 
 
 ### Features left to implement
