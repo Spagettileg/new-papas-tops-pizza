@@ -219,7 +219,36 @@ Safari   |14.1
 Opera    |72.0.3815.320
 
 ### Test Observations
+The following media queries were added to improve the project responsiveness on all tested devices.
 
+Media Query                  | Device  | Class                    | Comments
+-----------------------------|---------|--------------------------|-------------
+max-width 375px & portrait   | Mobile  | `.navbar`                | `height: 18rem`, `top: -18rem`
+max-width 375px & portrait   | Mobile  | `.menu`                  | `top: 2rem`. `width: 3.5rem`, `height: 3.5rem`
+max-width 375px & portrait   | Mobile  | `.menu.change`           | `top: 20rem` 
+max-width 375px & portrait   | Mobile  | `.menu::before`          | `height: 20rem`, `top: -20rem`
+max-width 375px & portrait   | Mobile  | `.navbar-link`           | `margin: 0 1.5rem`
+max-width 375px & portrait   | Mobile  | `.navbar-link i`         | `font-size: 1.5rem`
+max-width 375px & portrait   | Mobile  | `.navbar-link span`      | `font-size: 1.25rem`
+max-width 375px & portrait   | Mobile  | `.deal-gallery`          | `margin: 0`
+max-width 375px & portrait   | Mobile  | `.alert`                 | `font-size: 1rem`
+max-width 667px & landscape  | Tablet  | `.navbar-link`           | `margin: 0 0.75rem`
+max-width 667px & landscape  | Tablet  | `.navbar-link i`         | `font-size: 2rem`
+max-width 667px & landscape  | Tablet  | `.navbar-link span`      | `font-size: 1.1rem`
+max-width 667px & landscape  | Tablet  | `.carousel-inner img`    | `max-height: 8rem`, `max-width: 8rem`, `padding: 1.1rem`
+max-width 667px & landscape  | Tablet  | `.carousel-item p`       | `width: 18rem`
+min-width 700px & portrait   | Desktop | `.carousel-inner img`    | `max-height: 8rem`, `max-width: 8rem`, `padding: 1.1rem`
+max-width 700px & portrait   | Desktop | `.carousel-item p`       | `width: 18rem`
+max-width 768px & portrait   | Tablet  | `.navbar-link`           | `margin: 0 0.75rem`
+max-width 768px & portrait   | Tablet  | `.navbar-link i`         | `font-size: 2.5rem`
+max-width 768px & portrait   | Tablet  | `.navbar-link span`      | `font-size: 1.3rem`
+max-width 768px & portrait   | Tablet  | `.carousel-inner img`    | `max-height: 10rem`, `max-width: 10rem`, `padding: 1.1rem`
+max-width 768px & portrait   | Tablet  | `.carousel-item p`       | `width: 18rem`
+max-width 1024px & portrait  | Desktop | `.navbar-link`           | `margin: 1.25rem`
+max-width 1024px & portrait  | Desktop | `.navbar-link i`         | `font-size: 3rem`
+max-width 1024px & portrait  | Desktop | `.navbar-link span`      | `font-size: 1.5rem`
+max-width 1024px & portrait  | Desktop | `.deal-gallery`          | `margin: 1.25rem`
+max-width 1024px & portrait  | Desktop | `.menu`                  | `left: 1.25rem`
 
 ## Deployment
 
