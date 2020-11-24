@@ -187,7 +187,11 @@ Online discount notification **10% of the bill** appears in thenext container. T
 
 **Carousel** of current pizza product offerings are on view. Three circular pizza images appear per carousel cycle with a progress indicator to show the user where they are in the animation cycle    
 
-**Footer** is built into three specific segments. **Pizza Topping** links different food genre toppings including meat, chicken, vegetable, plain - no fuss and customise. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Papa's Tops Pizza' social media sites for Facebook & Twitter. Again, the .hover pseudo class has been used to provide a transition scale increase of 15%. **Site Links** links allow the user to access menu & ordering, members & contact us. Web agency logo is on view. The lower footer presents a series of accepted credit cards that can be used to pay for an order. Finally, Papa's Tops Pizza' current year of trading, powered by Javascript, copyright and web designer information are also on view.    
+**Footer** is built into three specific segments:
+
+1. **Pizza Topping** links different food genre toppings including meat, chicken, vegetable, plain - no fuss and customise
+2. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Papa's Tops Pizza' social media sites for Facebook & Twitter. Again, the .hover pseudo class has been used to provide a transition scale increase of 15%
+3. **Site Links** links allow the user to access menu & ordering, members & contact us. Web agency logo is on view. The lower footer presents a series of accepted credit cards that can be used to pay for an order. Finally, Papa's Tops Pizza' current year of trading, powered by Javascript, copyright and web designer information are also on view.    
 
 
 ### Features left to implement
