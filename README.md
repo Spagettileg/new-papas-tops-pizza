@@ -73,7 +73,10 @@ The user experience centres upon signing up to an incentive based web design and
 - Social media link access to further promote Papa's Tops Pizza and encourage member intra-communications
 
 #### Next Stage Generation
-
+- Increase product density through expanding scope of products and other italian food products for the ultimate italian dining experience  
+- Leverage footfall data to attract commercial online advertising, with resultant revenues used to maintain and grow website
+- Affiliate with italian food product merchants to encourage exclusivity on new products  
+- Explore new social media channels to promote 'Papa's Tops Pizza'
 
 ### Wireframes
 
