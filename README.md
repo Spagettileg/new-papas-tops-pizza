@@ -103,15 +103,15 @@ Colours used in this project were sourced from [visme.co](https://visme.co/blog/
 
 Colour             | Hex Code
 -------------------|----------
-Rich Black         | #0e1116
-Cloud Grey         | #747474
-Charcoal Grey      | #343A40
-Satsuma Orange     | #FF652F
-Buttercup Yellow   | #FFE400
-Watercress Green   | #14A76C
-White              | #FFFFFF
-Grey               | #BFBFBF
-Off-White          | #FAFAFA
+Rich Black         | `#0e1116`
+Cloud Grey         | `#747474`
+Charcoal Grey      | `#343A40`
+Satsuma Orange     | `#FF652F`
+Buttercup Yellow   | `#FFE400`
+Watercress Green   | `#14A76C`
+White              | `#FFFFFF`
+Grey               | `#BFBFBF`
+Off-White          | `#FAFAFA`
 
 ### Typography
 
