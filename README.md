@@ -114,7 +114,7 @@ Grey               | `#BFBFBF`
 Off-White          | `#FAFAFA`
 
 ### Typography
-
+[Nunito](https://fonts.google.com/) and [sans-serif](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon Graphics
 
