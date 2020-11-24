@@ -96,7 +96,7 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 * Must include the web agency corporate logo in the footer design
 
 ### CSS Framework
-
+Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
 
