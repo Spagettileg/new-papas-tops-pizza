@@ -99,7 +99,19 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
+Colours used in this project were sourced from [visme.co](https://visme.co/blog/website-color-schemes/). Essentially, the colours are seeking to capture key attributes of Papa's Tops Pizza through fresh, appetising, full flavour and wholesome
 
+Colour             | Hex Code
+-------------------|----------
+Rich Black         | #0e1116
+Cloud Grey         | #747474
+Charcoal Grey      | #343A40
+Satsuma Orange     | #FF652F
+Buttercup Yellow   | #FFE400
+Watercress Green   | #14A76C
+White              | #FFFFFF
+Grey               | #BFBFBF
+Off-White          | #FAFAFA
 
 ### Typography
 
