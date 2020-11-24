@@ -204,7 +204,15 @@ Online discount notification **10% of the bill** appears in thenext container. T
 A user [testing matrix](https://github.com/Spagettileg/new-papas-tops-pizza/blob/main/testing/UserTestingPapasTopsPizzavfinal.zip) has been produced in MS Excel, but saved as .pdf to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
 
 ### Compatibility
+The following browsers were used in testing the New Papa's Tops Pizza application. Internet Explorer was out of scope for testing due to obsolete capability
 
+platform | version
+---------|--------
+Chrome   |86.0.4240.198
+Edge     |86.0.622.69
+Firefox  |78.0.2
+Safari   |14.1
+Opera    |72.0.3815.320
 
 ### Test Observations
 
