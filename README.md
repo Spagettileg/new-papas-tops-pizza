@@ -291,4 +291,4 @@ Further reading and troubleshooting on cloning a repository from [GitHub](https:
 - [Trilogic logo](https://www.trilogicrecruitment.co.uk/) used in footer of homepage
 
 ### Acknowledgements
-
+Thanks to web-agency staff at [Trilogic](https://www.trilogicrecruitment.co.uk/) for introducing the developer opportunity material. 
