@@ -16,7 +16,7 @@ This project is designed to showcase a front end design built with the following
 
 Papa's Tops Pizza has requested for an overhaul of their current website as they want to embrace some of the latest UX design and ensure the website has a modern feel where the users will enjoy a better shopping experience.  
 
-Whilst pizza will remain as the core product for sale, it's clear in todays highly competetive market place that the business owner needs to improve their marketing and deal proposition to the end user. Whilst a quality pizza product is a given, the user wants to be delighted with deals that generates a feeling of good value.   Whats not to like about whiskey? This website is built for the whiskey connoisseur who enjoys the finer things in life, like minded consumers give their feedback on premium products and opportunities to purchase whiskey at discounted prices.
+Whilst pizza will remain as the core product for sale, it's clear in todays highly competetive market place that the business owner needs to improve their marketing and deal proposition to the end user. Whilst a quality pizza product is a given, the user wants to be delighted with deals that generates a feeling of good value. Whats not to like about pizza? This website is built for the pizza connoisseur who enjoys the finer things in life. 
 
 The user experience centres upon signing up to an incentive based web design and the user is able to click on link buttons to access more feature information, special membership and rapid ordering through auto-mated dialling or email ordering. 
 
